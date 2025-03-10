@@ -7,6 +7,8 @@ Initial the 4*4 matrix with randomly generated new number 2 in any two empty cel
 For each move, check all items first, then: (1) if two numbers are the same and adjacent in the moving direction, add up and move to the right space; (2) previous cells back to space; (3) move all rest cells; (4) randomly generate a new number 2 in any empty cell; (5) if no space, no two numbers are the same and adjacent in any direction, return fail.
 
 Approach: slide-merge-slide
+
+
 Example 1:
 [2, 0, 2, 0] → [4, 0, 0, 0] (move left)
 [2, 0, 2, 0] → [2, 2, 0, 0] → [4, 0, 0, 0] → [4, 0, 0, 0]
